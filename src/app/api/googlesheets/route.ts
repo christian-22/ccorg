@@ -1,4 +1,4 @@
-// export async function POST(req: Request) {
+ export async function POST(req: Request) {
 //     try {
 //       const body = await req.json();
   
@@ -21,5 +21,5 @@
 //     } catch (error) {
 //       return new Response(JSON.stringify({ message: 'Error connecting to Google Sheets' }), { status: 500 });
 //     }
-//   }
+   }
   
