@@ -4,14 +4,14 @@ import "./styles/globals.css";
 import Link from "next/link";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
+  // NavigationMenuContent,
+  // NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-  navigationMenuTriggerStyle,
+  // NavigationMenuTrigger,
+  // NavigationMenuViewport,
+  // navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
 
