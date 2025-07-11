@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Display } from "next/font/google";
 import "./styles/globals.css";
-import Link from "next/link";
 import {
   NavigationMenu,
   // NavigationMenuContent,
