@@ -34,34 +34,16 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${notoSansDisplay.variable} antialiased bg-black`}>
         <NavigationMenu className="">
-          <NavigationMenuList className="flex flex-nowrap w-screen m-1 gap-9">
+          <NavigationMenuList className="flex flex-nowrap w-screen m-1 gap-9 border-b border-white">
             <NavigationMenuItem>
-              <Link href="" passHref>
-                <NavigationMenuLink className="text-white">
+                <NavigationMenuLink href="/home" className="text-white text-4xl">
                   Home
                 </NavigationMenuLink>
-              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="" passHref>
-                <NavigationMenuLink className="text-white">
-                  About
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="" passHref>
-                <NavigationMenuLink className="text-white">
+                <NavigationMenuLink href="/resume" className="text-white text-4xl">
                   Resumé
                 </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="" passHref>
-                <NavigationMenuLink className="text-white">
-                  Github
-                </NavigationMenuLink>
-              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
